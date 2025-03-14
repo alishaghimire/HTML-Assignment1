@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    /*padding: 0;*/
+}
+div{
+    width: 100%;
+   
+    margin: 0;
+  
+}
+#style_decimal_zero{
+    list-style: decimal-leading-zero;
+}
+body{
+    background-color: rgb(245, 241, 241);
+}
+.container div{
+    width: 100px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 3px solid #aa2255;
+    padding: 20px;
+    filter: drop-shadow(0px 1px 2px) blur(0px);
+    background-color: rgb(245, 241, 241);
+  
+
+}
+#div1{
+   
+    width: 15%;
+padding: 10px;
+border: solid 2px rgba(251, 254, 251, 0.879);
+height: 90px;
+margin-bottom: 0;
+margin-left: 2;
+float: left;
+background-color: aliceblue;
+}
+#div2{
+    width: 15%;
+padding: 10px;
+border: solid 2px rgb(250, 253, 250);
+height: 90px;
+margin-bottom: 0;
+margin-left: 0;
+float: left;
+background-color: aliceblue;
+
+
+}
+#div3{
+    width: 15%;
+padding: 10px;
+border: solid 2px rgb(250, 253, 250);
+height: 90px;
+margin-bottom: 0;
+margin-left: 0;
+float: left;
+background-color: aliceblue;
+
+}
+#div4{
+    width: 15%;
+padding: 10px;
+border: solid 2px rgb(250, 253, 250);
+height: 90px;
+margin-bottom: 0;
+margin-left: 2;
+clear: both;
+float: left;
+background-color: aliceblue;
+}
+#div5{
+    float: left;
+    width: 15%;
+padding: 10px;
+border: solid 2px rgb(250, 253, 250);
+height: 90px;
+margin-bottom: 0;
+margin-left: 0;
+background-color: aliceblue;
+
+}
+#div6{
+    float: left;
+    width: 15%;
+padding: 10px;
+border: solid 2px rgb(250, 253, 250);
+height: 90px;
+margin-bottom: 0;
+margin-left: 0;
+background-color: aliceblue;
+
+}
