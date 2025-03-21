@@ -1,37 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Frameset Layout</title>
 </head>
-<frameset cols="30% *,40%,50%" rows="15%,20%,20%">
-   
-            <frame src="11.frame1.html" />
+<frameset cols="30%, 70%">
+    <frameset rows="25%, 75%">
+        <frame src="11.frame1.html" name="frame1">
+        <frame src="11.frame2.html" name="frame2">
+    </frameset>
 
-        <frame src="11.frame3.html" />
-        <frame src="11.frame4.html" />
-  
-   
-    <frameset cols="20%*" rows="20%,">
-      
-            <frame src="11.frame2.html" />
+    <frameset rows="50%, 50%">
+        <frameset cols="50%, 50%">
+            <frame src="11.frame3.html" name="frame3">
+            <frame src="11.frame4.html" name="frame4">
+        </frameset>
         
-        
-        <frameset cols="20%,30%,20%">
-            <frameset cols="*,*,*"></frameset>
-        <frame src="11.frame5.html" />
-        <frame src="11.frame6.html" />
-        <frame src="11.frame6.html" />
+        <frameset cols="33%, 33%, 34%">
+            <frame src="11.frame5.html" name="frame5">
+            <frame src="11.frame6.html" name="frame6">
+            <frame src="11.frame6.html" name="frame7">
+        </frameset>
+    </frameset>
 </frameset>
-   
-        
-           
-
-     
-
-    </frameset>
-    
-    </frameset>
 </html>
