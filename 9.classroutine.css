@@ -22,8 +22,8 @@ table, th, td {
     height: 100;
     position: absolute;
     top: 20px;
-    left: 300px;
-  }
+    left: 450px;
+margin-right: 0;  }
   #name{
     writing-mode: vertical-rl;
   }
