@@ -10,6 +10,7 @@ div{
 }
 #style_decimal_zero{
     list-style: decimal-leading-zero;
+    margin: 0;
 }
 body{
     background-color: rgb(245, 241, 241);
@@ -81,7 +82,6 @@ height: 90px;
 margin-bottom: 0;
 margin-left: 0;
 background-color: aliceblue;
-
 }
 #div6{
     float: left;
@@ -92,5 +92,14 @@ height: 90px;
 margin-bottom: 0;
 margin-left: 0;
 background-color: aliceblue;
+}
 
+ul{
+    list-style-position: inside;
+    padding-left: 0;
+    margin-left: 0;
+    text-align: left;
+}
+li{
+    text-align: left;
 }
