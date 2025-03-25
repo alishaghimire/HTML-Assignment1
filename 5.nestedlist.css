@@ -21,24 +21,31 @@ body{
     padding: 20px;
     height: 100px;
     background-color: bisque;
+    position: absolute;
+    display: inline;
 
 }
 #example{
     float: left;
-    width: 40%;
+    width: 44%;
     padding: 45px;
     border: solid 2px black;
     margin-left: 0;
     margin-bottom: 0;
     clear: left;
     height:600px ;
+    display: inline;
+    border-right: none;
+    
 }
 #example1{
-    width: 45%;
+    width: 44.1%;
     padding: 45px;
     border: solid 2px black;
     margin-left: 0;
     margin-bottom: 0;
-    float:right;
+    float:left;
     height: 600px;
+    display: inline;
+    margin-left: 0;
 }
