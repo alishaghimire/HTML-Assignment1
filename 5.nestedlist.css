@@ -1,6 +1,6 @@
 *{
     margin: 0;
-    /*padding: 0;*/
+    padding: 0;
 }
 div{
     width: 100%;
@@ -13,7 +13,6 @@ body{
 }
 .container div{
     width: 100px;
-    margin: 100px;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -21,9 +20,7 @@ body{
     padding: 20px;
     height: 100px;
     background-color: bisque;
-    position: absolute;
-    display: inline;
-
+    
 }
 #example{
     float: left;
@@ -31,10 +28,7 @@ body{
     padding: 45px;
     border: solid 2px black;
     margin-left: 0;
-    margin-bottom: 0;
-    clear: left;
     height:600px ;
-    display: inline;
     border-right: none;
     
 }
@@ -43,9 +37,7 @@ body{
     padding: 45px;
     border: solid 2px black;
     margin-left: 0;
-    margin-bottom: 0;
     float:left;
     height: 600px;
-    display: inline;
     margin-left: 0;
 }
