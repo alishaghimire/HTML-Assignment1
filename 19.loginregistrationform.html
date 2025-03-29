@@ -3,48 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alisha Khatri</title>
-   <link rel="stylesheet" href="19.loginregistration.css">
+    <title>Registration/Login Form</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" >
+    <link rel="stylesheet" href="19.loginregistration.css">
 </head>
 <body>
 
+    <h1>REGISTRATION / LOGIN FORM</h1>
+
     <div class="container">
-        <h2>REGISTRATION / LOGIN FORM</h2>
         <div class="form-box">
-            <!-- Registration Form -->
-            <div class="form">
-                <h3>Register Form :</h3>
-                <input type="text" placeholder="Username">
-                <input type="email" placeholder="Enter Your Email">
-                <input type="password" placeholder="Password">
-                <input type="password" placeholder="Confirm Password">
-                
-                <div>
-                    <input type="radio" name="gender" id="female"><label for="female"> Female</label>
-                    <input type="radio" name="gender" id="male"><label for="male"> Male</label>
-                </div>
-
-                <div class="checkbox">
-                    <input type="checkbox" id="terms">
-                    <label for="terms">I have read and accept terms of use.</label>
-                </div>
-
-                <button class="btn">SUBMIT</button>
+            <h2>Register Form:</h2>
+            <input type="text" placeholder="Username" required>
+            <input type="email" placeholder="Email">
+            <p style="font-size: 12px;">Please enter a valid email address</p>
+            <input type="password" placeholder="Password" required>
+            <p style="font-size: 12px;">Minimum of 6 characters</p>
+            <input type="password" placeholder="Confirm password">
+            <div class="checkbox">
+                <input type="radio" name="gender"> Female
+                <input type="radio" name="gender" style="margin-left: 10px;"> Male
             </div>
-
-            <!-- Login Form -->
-            <div class="form">
-                <h3>Login Form :</h3>
-                <input type="email" placeholder="Enter Your Email">
-                <input type="password" placeholder="Password">
-                
-                <div class="checkbox">
-                    <input type="checkbox" id="remember">
-                    <label for="remember">Remember me</label>
-                </div>
-
-                <button class="btn">LOGIN</button>
+            <div class="checkbox">
+                <input type="checkbox"> I have read and accept terms of use.
             </div>
+            <button class="btn">SUBMIT</button>
+        </div>
+
+        <div class="form-box">
+            <h2>Login Form:</h2>
+            <input type="email" placeholder="Enter Your Email">
+            <input type="password" placeholder="Password">
+            <div class="checkbox">
+                <input type="checkbox"> Remember me
+            </div>
+            <button class="btn">LOGIN</button>
         </div>
     </div>
 

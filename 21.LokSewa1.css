@@ -1,0 +1,234 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #161616;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 100%;
+    max-width: 900px;
+    background: rgb(250, 249, 249);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-size: 14px;
+    height: 700px;
+    margin-left: 0;
+    margin-right: 50px;
+   
+
+}
+.register{
+    margin-left: 0;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.logo-section {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-bottom: 20px;
+}
+
+.logo {
+    width: 50px;
+    height: auto;
+    margin-right: 15px;
+}
+
+.logo-section h2 {
+    font-size: 16px;
+    color: #333;
+    margin: 0;
+    
+}
+
+
+h1 {
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.form-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+form{
+
+    display: flex;
+  flex-direction: column; /* Stack boxes vertically */
+  gap: 15px;
+}
+.form-item {
+    width: 30%;
+    margin: 10px 0;
+    text-align: left;
+}
+input[type="text"]
+{
+    gap:10px;
+    border-radius: 4px;
+    margin-left: -10px;
+    margin-right: 20px;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #161616;
+    border-radius: 5px;
+    font-size: 14px;
+    left: -20px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    background: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+#dob{
+    display: block;
+    margin-left: 39px;
+   width: 200px;
+    
+}
+.gender{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 0;
+    align-items: center;
+}
+#genderfoemgropu{
+    display: flex;
+  flex-direction: column; 
+  align-items: flex-start; 
+  
+  margin-top: 20px;
+}
+.email{
+   justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: relative;
+   float: right;
+    margin-left: 0px;
+    
+}
+
+.mobile{
+    margin-bottom: 20px;
+}
+.national-id
+{
+    margin-bottom: 0;
+    display: flex;
+}
+
+.c-issu-district{
+    margin-right: 50px;
+}
+input[type="email"]
+{
+    width: 600px;
+   
+}
+
+input[type="number"]
+{
+    
+    width: 200px;
+    margin-left: 80px;
+    border-radius: 4px;
+}
+input[type="date"]
+{
+  
+   margin-right: 0px;
+   width: 200px;
+   border-radius: 4px;
+   }
+  
+select[name="District"]
+{
+    width: 200px;
+   
+}
+#nid{
+    margin-bottom: 10px;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+button[type="reset"] {
+    background: transparent;
+    border: 2px solid #007bff;
+    color: #007bff;
+    width: 2000px;
+    height: 50px;
+
+}
+
+button[type="reset"]:hover {
+    background: #f0f0f0;
+    border-color: #0056b3;
+    color: #0056b3;
+
+}
+
+.form-group-buttons {
+    display: flex;
+    justify-content: space-between;
+    gap: 700px;
+    margin-top: 20px;
+   
+}
+
+.form-group-buttons button {
+    width: 48%;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 80%;
+    }
+    .form-group {
+        flex-direction: column;
+    }
+    .form-item {
+        width: 100%;
+    }
+    .form-group-buttons {
+        flex-direction: column;
+    }
+    .form-group-buttons button {
+        width: 100%; /* Stack buttons vertically on smaller screens */
+    }
+}

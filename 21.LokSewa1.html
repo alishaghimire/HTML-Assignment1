@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lok Sewa Aayog Registration</title>
+    <link rel="stylesheet" href="21.LokSewa1.css">
+</head>
+<body>
+    <div class="container">
+        <div class="logo-section">
+            <img src="logo2.jpg" alt="Public Service Commission Logo" class="logo">
+            <h2>Public Service Commission</h2>
+        </div>
+        <div class="register">
+            <h2> Register</h2>
+        </div>
+        
+        <form action="#" method="POST">
+            <div class="form-group side-by-side">
+                <div class="side-by-side-item">
+                    <label for="first-name">First Name*</label>
+                    <input type="text" id="first-name" name="first-name" required>
+                </div>
+                <div class="side-by-side-item">
+                    <label for="middle-name">Middle Name*</label>
+                    <input type="text" id="middle-name" name="middle-name">
+                </div>
+                <div class="side-by-side-item">
+                    <label for="last-name" class="lastname">Last Name*</label>
+                    <input type="text" id="last-name" name="last-name" required>
+                </div>
+            </div>
+
+            <div class="form-group side-by-side">
+                <div class="side-by-side-item">
+                    <label for="username">Username*</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+                <div class="side-by-side-item">
+                    <label for="dob" id="dob">Date of Birth(B.S)*</label>
+                    <input type="date" id="dob" name="dob" required>
+                </div>
+                <div class="side-by-side-item">
+                    <label for="dob" id="dob">Date of Birth(A.D)*</label>
+                    <input type="date" id="dob" name="dob" required>
+                </div>
+               
+                <div class="form-group" id="genderfoemgropu">
+                    <label for="gender" class="gen" >Gender*</label>
+                    <div class="gender">
+                        <input type="radio" name="gender" value="m" class="name_box" id="gender1">male
+                        <input type="radio" name="gender" id="female" value="f" class="name_box" id="gender1">Female
+                        <input type="radio" name="gender" id="female" value="f" class="name_box" id="gender1">Other
+        
+                    </div>
+                </div>
+                <div class="email" id="emailformgroup">
+                    <label for="email">Email*</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+            </div>
+
+            <div class="form-group side-by-side">
+                <div class="mobile">
+                    <label for="mobile">Mobile Number*</label>
+                    <input type="tel" id="mobile" name="mobile" required>
+                </div>
+                <div class="national-id-no">
+                    <label for="national-id-no">National Id*</label>
+                    <input type="number" id="national-id-no" name="national-id-no" required>
+                </div>
+                    
+                
+                <div class="citizen-number" >
+                    <label for="citizen-number"> Citizenship Number*</label>
+                    <input type="number" id="citizenship-number" name="citizenship-number" required>
+                </div>
+                <div class="c-issu-district">
+               
+                    <label for="citizenship-issue-district">Citizenship Issue District*</label>
+                    <select name="District" id="District" >
+                        <option value="">Select District</option>
+                        <optgroup label="Nepal">
+                            <option>Kathmandu</option>
+                            <option>Bhairabhwa</option>
+                            <option > Biratnagar</option>
+                        </optgroup>
+                    </select>
+                </div>
+                <div class="side-by-side-item">
+                    <label for="citizenship-issue-date">Citizenship Issue Date(B.S)*</label>
+                    <input type="date" id="citizenship-issue-date" name="citizenship-issue-date" required>
+                </div>
+                <div class="side-by-side-item">
+                    <label for="citizenship-issue-date">Citizenship Issue Date(A.D)</label>
+                    <input type="date" id="citizenship-issue-date" name="citizenship-issue-date" required>
+                </div>
+                <div class="form-group-buttons">
+                    <button type="reset" class="btn-back">Back to Login</button>
+                    <button type="submit" class="btn-submit">Submit</button>
+                </div>
+                
+            </div>
+            
+        </form>
+    </div>
+</body>
+</html>
